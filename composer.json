@@ -1,0 +1,25 @@
+{
+  "name": "cyberbrains/laravel-payment-payme",
+  "authors": [
+    {
+      "name": "Asadbek",
+      "email": "fayzulloevasadbek@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cyberbrains\\LaravelPaymentPayme\\Providers\\PaycomPaymentProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Cyberbrains\\LaravelPaymentPayme\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
